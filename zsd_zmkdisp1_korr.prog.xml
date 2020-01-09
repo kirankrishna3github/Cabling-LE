@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZSD_ZMKDISP1_KORR</NAME>
+    <STATE>A</STATE>
+    <VARCL>X</VARCL>
+    <SUBC>1</SUBC>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>S</ID>
+       <KEY>SMATNR</KEY>
+       <ENTRY>Material</ENTRY>
+       <LENGTH>16</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SCPOSNR</KEY>
+       <ENTRY>Chargensplittpositionen</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SCHARG</KEY>
+       <ENTRY>Charge</ENTRY>
+       <LENGTH>14</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PVBFAD</KEY>
+       <ENTRY>Belegfluss zum Auftrag löschen</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PVBFA</KEY>
+       <ENTRY>Belegfluss zum Auftrag anzeige</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PVBELN</KEY>
+       <ENTRY>Verkaufsbeleg</ENTRY>
+       <LENGTH>21</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PVBAPD</KEY>
+       <ENTRY>Kundenauftragspos. löschen</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PVBAP</KEY>
+       <ENTRY>Kundenauftragspos. anzeigen</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PVBAKD</KEY>
+       <ENTRY>Kundenauftrag löschen</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PVBAK</KEY>
+       <ENTRY>Kundenauftrag anzeigen</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PPOSNR</KEY>
+       <ENTRY>Position</ENTRY>
+       <LENGTH>16</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PLIPSD</KEY>
+       <ENTRY>Lieferungsposition löschen</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PLIPS</KEY>
+       <ENTRY>Lieferungsposition anzeigen</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PLIKPD</KEY>
+       <ENTRY>Lieferung löschen</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PLIKP</KEY>
+       <ENTRY>Lieferung anzeigen</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PCPOSNRD</KEY>
+       <ENTRY>Cahrgensplittpos. löschen</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PCPOSNR</KEY>
+       <ENTRY>Chargensplittpos. zeigen</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PCABLED</KEY>
+       <ENTRY>Stückelungsdispo löschen</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PCABLE</KEY>
+       <ENTRY>Stückelungsdispo anzeigen</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Löschprogramm für Inkonsistenzbereingigung Stückelungsdispo</ENTRY>
+       <LENGTH>59</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

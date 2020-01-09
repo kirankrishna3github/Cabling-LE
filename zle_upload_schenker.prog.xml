@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZLE_UPLOAD_SCHENKER</NAME>
+    <STATE>A</STATE>
+    <VARCL>X</VARCL>
+    <SUBC>1</SUBC>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Selektionskriterien Inputfiles</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Mapping KFZ -&gt; ISO-Länderschlüssel (welche in Tab. T005 nicht vorhanden sind)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>F01</KEY>
+       <ENTRY>ISO-Landschlüssel fehlt: Prüfen und in folgendes Mappuing-File eintragen:</ENTRY>
+       <LENGTH>90</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NO1</KEY>
+       <ENTRY>Nein</ENTRY>
+       <LENGTH>4</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>T01</KEY>
+       <ENTRY>Neuload Schenkertabellen</ENTRY>
+       <LENGTH>55</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>T02</KEY>
+       <ENTRY>Achtung: Wollen sie wirklich die Tabellen neu aufbauen?</ENTRY>
+       <LENGTH>55</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>YES</KEY>
+       <ENTRY>Ja</ENTRY>
+       <LENGTH>2</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Upload Schenkerdaten für Routingermittlung</ENTRY>
+       <LENGTH>42</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CBMIHU</KEY>
+       <ENTRY>Mistral-HUB neu erstellen</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CBPLZ</KEY>
+       <ENTRY>Mistral-PLZ neu erstellen</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CBRO</KEY>
+       <ENTRY>Routing DE neu erstellen</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CBROEX</KEY>
+       <ENTRY>Routing Export neu erstellen</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CBTI</KEY>
+       <ENTRY>Excel enthält Titel</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MAPLA</KEY>
+       <ENTRY>Inputfile Landmapping: KFZ-ISO</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MIHU</KEY>
+       <ENTRY>Inputfile Mistral-HUB</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_PLZ</KEY>
+       <ENTRY>Inputfile Mistral-Postleitzahl</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_ROUT</KEY>
+       <ENTRY>Inputfile Routing</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_ROUTEX</KEY>
+       <ENTRY>Inputfile Routing Export</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

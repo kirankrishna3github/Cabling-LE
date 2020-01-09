@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <INCLUDES>
+    <SOBJ_NAME>LZDLE_PACKF01</SOBJ_NAME>
+    <SOBJ_NAME>LZDLE_PACKTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZDLE_PACK</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_LE_ANZPACKSTUECKE_JE_POS</FUNCNAME>
+     <INCLUDE>LZDLE_PACKU01</INCLUDE>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_LANGU</PARAMETER>
+       <DBFIELD>SY-LANGU</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_DELIV</PARAMETER>
+       <DBSTRUCT>SHIP_DELIV</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_PACK</PARAMETER>
+       <DBSTRUCT>ZSLE_PACK</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_LANGU</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_DELIV</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_PACK</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 003</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

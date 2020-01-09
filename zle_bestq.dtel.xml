@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZLE_BESTQ</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZLE_BESTQ</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>01</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Stock category in the Warehouse Management system</DDTEXT>
+    <REPTEXT>C</REPTEXT>
+    <SCRTEXT_S>Stck.cat.</SCRTEXT_S>
+    <SCRTEXT_M>Stock category</SCRTEXT_M>
+    <SCRTEXT_L>Stock category</SCRTEXT_L>
+    <APPLCLASS>LVS</APPLCLASS>
+    <DTELMASTER>D</DTELMASTER>
+    <DEFFDNAME>STOCK_CAT</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>Stock category in the Warehouse Management system</DDTEXT>
+     <REPTEXT>C</REPTEXT>
+     <SCRTEXT_S>Stck.cat.</SCRTEXT_S>
+     <SCRTEXT_M>Stock category</SCRTEXT_M>
+     <SCRTEXT_L>Stock category</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Bestandsqualifikation im Lagerverwaltungssystem</DDTEXT>
+     <REPTEXT>B</REPTEXT>
+     <SCRTEXT_S>BestQual.</SCRTEXT_S>
+     <SCRTEXT_M>Bestandsqual.</SCRTEXT_M>
+     <SCRTEXT_L>Bestandsqual.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Type de stock dans le système WM</DDTEXT>
+     <REPTEXT>T</REPTEXT>
+     <SCRTEXT_S>Type stock</SCRTEXT_S>
+     <SCRTEXT_M>Type de stock</SCRTEXT_M>
+     <SCRTEXT_L>Type de stock</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Tipo stock nel sistema gestione magazzino</DDTEXT>
+     <REPTEXT>T</REPTEXT>
+     <SCRTEXT_S>Tipo stock</SCRTEXT_S>
+     <SCRTEXT_M>Tipo stock</SCRTEXT_M>
+     <SCRTEXT_L>Tipo stock</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Diferenciación de stock en sistema de gestión de almacenes</DDTEXT>
+     <REPTEXT>D</REPTEXT>
+     <SCRTEXT_S>Difer.stk.</SCRTEXT_S>
+     <SCRTEXT_M>Difer.stock</SCRTEXT_M>
+     <SCRTEXT_L>Diferenciación stock</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

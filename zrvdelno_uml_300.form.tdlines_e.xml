@@ -1,0 +1,878 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<abapGit version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TDLINES>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>%%DOCU</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;0</TDFORMAT>
+     <TDLINE>U1LAYOUT SET : ZRVDELNO_UML_300</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Delivery note</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;1</TDFORMAT>
+     <TDLINE>U1PAGE : FIRST</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>First page</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;2</TDFORMAT>
+     <TDLINE>U1PAGE : NEXT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Next page</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;3</TDFORMAT>
+     <TDLINE>U1WINDOW : ADDRESS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Adressee</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;4</TDFORMAT>
+     <TDLINE>U1WINDOW : FOOTER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Footer</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;3</TDFORMAT>
+     <TDLINE>U1WINDOW : HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Header window</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;4</TDFORMAT>
+     <TDLINE>U1WINDOW : INFO</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Information</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;3</TDFORMAT>
+     <TDLINE>U1WINDOW : INFO2</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Info window: next pages</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;4</TDFORMAT>
+     <TDLINE>U1WINDOW : MAIN</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Main window</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;3</TDFORMAT>
+     <TDLINE>U1WINDOW : PAGE</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Page numbering</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;4</TDFORMAT>
+     <TDLINE>U1WINDOW : REPEAT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Repeat printout</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;5</TDFORMAT>
+     <TDLINE>U1ELEMENT : REPEAT - REPEAT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;6</TDFORMAT>
+     <TDLINE>U1ELEMENT : MAIN - SPACE_LINE</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;5</TDFORMAT>
+     <TDLINE>U1ELEMENT : MAIN - HEADER_DATA</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;6</TDFORMAT>
+     <TDLINE>U1ELEMENT : MAIN - HEADER_TEXT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;5</TDFORMAT>
+     <TDLINE>U1ELEMENT : MAIN - ITEM_HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;6</TDFORMAT>
+     <TDLINE>U1ELEMENT : MAIN - ITEM_LINE</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;5</TDFORMAT>
+     <TDLINE>U1ELEMENT : MAIN - ITEM_TEXT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;6</TDFORMAT>
+     <TDLINE>U1ELEMENT : MAIN - ITEM_LINE_DG_HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Header for dangerous goods data</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>When outputting dangerous goods data from the first item, the system</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>also outputs the text from the header.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;5</TDFORMAT>
+     <TDLINE>U1ELEMENT : MAIN - ITEM_LINE_DG</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Item lines for dangerous goods data</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>If the item is a dangerous good, the system outputs the item&apos;s</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>dangerous goods data.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>You can add further symbols to indicate that additional data should be</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>output from the dangerous goods material master record.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>Available dangerous goods structure: RDGPRINT.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;6</TDFORMAT>
+     <TDLINE>U1ELEMENT : MAIN - ITEM_LINE_DG_TEXT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Item texts for dangerous goods data</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>If the item is a dangerous good, the system outputs the dangerous goods</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>long text for that item. This can either be a text concerning the</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>materials or it can be a standard text, unrelated to dangerous goods.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>Dangerous goods standard texts with the following text IDs are output</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>here: A_RAND, REP_QUAN, TRANSP7, HIGH_VISC</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>Available dangerous goods structures: RDGPRINT, RDGTXTPRT.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;5</TDFORMAT>
+     <TDLINE>U1ELEMENT : MAIN - ITEM_LINE_BATCH</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;6</TDFORMAT>
+     <TDLINE>U1ELEMENT : MAIN - ITEM_LINE_CONFIGURATION_BATCH_</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;5</TDFORMAT>
+     <TDLINE>U1ELEMENT : MAIN - ITEM_LINE_CONFIGURATION_BATCH</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;6</TDFORMAT>
+     <TDLINE>U1ELEMENT : MAIN - ITEM_LINE_SERIAL_NO_HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;5</TDFORMAT>
+     <TDLINE>U1ELEMENT : MAIN - ITEM_LINE_SERIAL_NO</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;6</TDFORMAT>
+     <TDLINE>U1ELEMENT : MAIN - ITEM_LINE_CONFIGURATION_HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;5</TDFORMAT>
+     <TDLINE>U1ELEMENT : MAIN - ITEM_LINE_CONFIGURATION</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;6</TDFORMAT>
+     <TDLINE>U1ELEMENT : MAIN - ITEM_REFERENCE</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;5</TDFORMAT>
+     <TDLINE>U1ELEMENT : MAIN - ITEM_QNUMBER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;6</TDFORMAT>
+     <TDLINE>U1ELEMENT : MAIN - ITEM_PURCHASE_DATA</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;5</TDFORMAT>
+     <TDLINE>U1ELEMENT : MAIN - DG_STANDARD_TEXT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Standard dangerous goods texts (non-item specific)</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>Standard dangerous goods texts that are not specific to the item are</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>output here.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Available dangerous goods structures: RDGPRINT, RDGPRTTXT.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>&gt;6</TDFORMAT>
+     <TDLINE>U1ELEMENT : MAIN - SUPPLEMENT_TEXT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>ADDRESS   F</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>IF &amp;PAGE&amp; EQ &apos;1 &apos;.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>INCLUDE &amp;TVKO-TXNAM_ADR&amp; OBJECT TEXT ID ADRS LANGUAGE &amp;VBDKL-SPRAS_VST&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ENDIF.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ADDRESS DELIVERY PARAGRAPH AS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  ADDRESSNUMBER &amp;VBDKL-ADRNR(K)&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  FROMCOUNTRY &amp;VBDKL-SLAND&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ENDADDRESS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>FOOTER    F</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>INCLUDE &amp;TVKO-TXNAM_FUS&amp; OBJECT TEXT ID ADRS LANGUAGE &amp;VBDKL-SPRAS_VST&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>HEADER    F</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>INCLUDE &amp;TVKO-TXNAM_KOP&amp; OBJECT TEXT ID ADRS LANGUAGE &amp;VBDKL-SPRAS_VST&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>INFO      F</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION WINDOW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;-0.5&apos; CH YORIGIN &apos;-0.25&apos; LN</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>SIZE WIDTH &apos;+0.4&apos; CH HEIGHT +1 LN</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX HEIGHT &apos;1.7&apos; LN INTENSITY 20</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>TI</TDFORMAT>
+     <TDLINE>Delivery note</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>&lt;s&gt;Number/date&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>&amp;VBDKL-VBELN&amp;&amp;&apos; / &apos;VBDKL-ERDAT&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>&lt;s&gt;Reference number/date&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>IF &amp;VBDKL-VGTYP&amp; EQ &apos;V&apos;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>&amp;VBDKL-VGBEL&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ELSE</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>&amp;VBDKL-BSTNK&amp;&amp;&apos; / &apos;VBDKL-BSTDK&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ENDIF</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>IF &amp;VBDKL-QMNUM&amp; NE &amp;SPACE&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>&lt;s&gt;Q-notification/date&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>&amp;VBDKL-QMNUM&amp;&amp;&apos; / &apos;VBDKL-QMDAT&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ELSE</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>&lt;s&gt;Order number/date&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>&amp;VBDKL-VBELN_VAUF&amp;&amp;&apos; / &apos;VBDKL-AUDAT_VAUF&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ENDIF</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>&lt;s&gt;Customer no.&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>&amp;VBCO3-KUNDE&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>MAIN      F</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>SPACE_LINE</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>HEADER_DATA</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>&lt;K&gt;Shipment details&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>&lt;K&gt;Conditions&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>IF &amp;VBDKL-VSBED_BEZ&amp; NE &amp;SPACE&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>&amp;&apos;Shipping conditions &apos;VBDKL-VSBED_BEZ&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ENDIF</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>IF &amp;VBDKL-INCO1&amp; NE &amp;SPACE&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>&amp;&apos;Terms of delivery &apos;VBDKL-INCO1&amp; &amp;VBDKL-INCO2&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ENDIF</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>&lt;K&gt;Weights (gross/net) - Volumes - Selections&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>&lt;PR&gt;&amp;&apos;Gross weight  &apos;VBDKL-BRGEW(13)&apos; &amp;VBDKL-GEWEI&amp; &apos;&amp;&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>&lt;PR&gt;&amp;&apos;Net weight    &apos;VBDKL-NTGEW(13)&apos; &amp;VBDKL-GEWEI&amp; &apos;&amp;&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>&lt;PR&gt;&amp;&apos;Volumes       &apos;VBDKL-VOLUM(13)&apos; &amp;VBDKL-VOLEH&amp; &apos;&amp;&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>HEADER_TEXT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>INCLUDE &apos;SD_RVADDN01&apos; OBJECT TEXT ID SDVD PARAGRAPH HT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>INCLUDE &amp;VBDKL-TDNAME&amp; OBJECT VBBK ID 0001 NEW-PARAGRAPH HT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>ITEM_HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>UL</TDFORMAT>
+     <TDLINE>&amp;ULINE(71)&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>IL</TDFORMAT>
+     <TDLINE>&lt;K&gt;Item,,&lt;/&gt;&lt;K&gt;Material,,&lt;/&gt;&lt;K&gt;Quantity,,,,&lt;/&gt;&lt;K&gt;Weight</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>,,&lt;/&gt;&lt;K&gt;Description&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>UL</TDFORMAT>
+     <TDLINE>&amp;ULINE(71)&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>ITEM_LINE</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>IL</TDFORMAT>
+     <TDLINE>&amp;VBDPL-POSNR+00(06)&amp;,,&amp;VBDPL-MATNR(18)&amp;,,&amp;VBDPL-LFIMG(I15)&amp;,,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>&amp;VBDPL-VRKME(03)&amp;,,&amp;VBDPL-NTGEW(I15)&amp;,,&amp;VBDPL-GEWEI(03)&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>IL</TDFORMAT>
+     <TDLINE>,,&amp;VBDPL-ARKTX&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>,,&amp;&apos;Customer article number&apos;VBDPL-IDNKD&apos;&apos;&amp;&amp;&apos;Item&apos;VBDPL-POSEX&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>,,&amp;&apos;Batch&apos;VBDPL-CHARG&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>ITEM_TEXT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>INCLUDE &amp;VBDPL-TDNAME&amp; OBJECT VBBP ID 0001 NEW-PARAGRAPH IT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>ITEM_LINE_DG_HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>DG</TDFORMAT>
+     <TDLINE>With following dangerous goods data:</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>ITEM_LINE_DG</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>DG</TDFORMAT>
+     <TDLINE>&amp;RDGPRINT-VKTRT&apos;:&apos;&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>DT</TDFORMAT>
+     <TDLINE>,,&amp;RDGPRINT-TKUI&amp; &amp;RDGPRINT-DGNU&amp; &amp;RDGPRINT-DGNA&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>,,&amp;RDGPRINT-DGRESD&amp; &amp;&apos;, &apos;RDGPRINT-DGRESD2&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>,,&amp;&apos;Class &apos;RDGPRINT-DGCL&amp; &amp;&apos;Sub-cl.no.&apos;RDGPRINT-SDBC(Z)&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>&amp;RDGPRINT-LDBC&amp; &amp;RDGPRINT-LWDG&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>,,&amp;&apos;PAC group: &apos;RDGPRINT-PGRO&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>,,&amp;&apos;Accident report no.: &apos;RDGPRINT-EINU&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>,,&amp;&apos;Hazard no: &apos;RDGPRINT-HNU&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>,,&amp;&apos;Danger label no: &apos;RDGPRINT-HPN1&amp;  &amp;RDGPRINT-HPN2&amp; &amp;RDGPRINT-HPN3&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>&amp;RDGPRINT-HPN4&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>,,&amp;&apos;EmS: &apos;RDGPRINT-EMSN1&amp;  &amp;&apos;MFAG: &apos;RDGPRINT-MFAG1&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>,,&amp;&apos;WPC: &apos;RDGPRINT-COWED&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>,,&amp;RDGPRINT-DAID1&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>,,&amp;RDGPRINT-DAID2&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>,,&amp;RDGPRINT-DAID3&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>,,&amp;RDGPRINT-DAID4&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>ITEM_LINE_DG_TEXT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>IF &amp;RDGTXTPRT-TDSPRAS&amp; EQ &apos;  &apos;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>INCLUDE &amp;RDGPRINT-TXNAME&amp; OBJECT &apos;HZ02&apos; ID &amp;RDGPRINT-IDDEP&amp; PARAGRAPH DT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>INCLUDE &amp;RDGTXTPRT-TDNAME&amp; OBJECT &apos;HZ01&apos; ID &apos;HZ01&apos; NEW-PARAGRAPH DG</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ELSE</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>INCLUDE &amp;RDGPRINT-TXNAME&amp; OBJECT &apos;HZ02&apos; ID &amp;RDGPRINT-IDDEP&amp; LANGUAGE &amp;RDGTXTPRT-TDSPRAS&amp; PARAGRAPH DT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>INCLUDE &amp;RDGTXTPRT-TDNAME&amp; OBJECT &apos;HZ01&apos; ID &apos;HZ01&apos; LANGUAGE &amp;RDGTXTPRT-TDSPRAS&amp; NEW-PARAGRAPH DG</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ENDIF</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>ITEM_LINE_BATCH</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>IL</TDFORMAT>
+     <TDLINE>,,&amp;&apos;Batch &apos;VBDPL-CHARG&amp;,,&amp;VBDPL-LFIMG(I15)&amp;,,&amp;VBDPL-VRKME&amp;,,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>&amp;VBDPL-NTGEW(I15)&amp;,,&amp;VBDPL-GEWEI(03)&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>ITEM_LINE_CONFIGURATION_BATCH_</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>IC</TDFORMAT>
+     <TDLINE>,,With the following batch valuation:</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>,,&amp;CONF_OUT-ATBEZ&amp;,,&amp;CONF_OUT-ATWTB&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>ITEM_LINE_CONFIGURATION_BATCH</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>IC</TDFORMAT>
+     <TDLINE>,,&amp;CONF_OUT-ATBEZ&amp;,,&amp;CONF_OUT-ATWTB&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>ITEM_LINE_SERIAL_NO_HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>IS</TDFORMAT>
+     <TDLINE>,,Serial no.:,,&amp;KOMSER-SNRLN(50)&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>ITEM_LINE_SERIAL_NO</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>IS</TDFORMAT>
+     <TDLINE>,,,,&amp;KOMSER-SNRLN(50)&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>ITEM_LINE_CONFIGURATION_HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>IC</TDFORMAT>
+     <TDLINE>,,With the following configuration:</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>,,&amp;CONF_OUT-ATBEZ&amp;,,&amp;CONF_OUT-ATWTB&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>ITEM_LINE_CONFIGURATION</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>IC</TDFORMAT>
+     <TDLINE>,,&amp;CONF_OUT-ATBEZ&amp;,,&amp;CONF_OUT-ATWTB&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>ITEM_REFERENCE</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>IL</TDFORMAT>
+     <TDLINE>,,&amp;&apos;Order &apos;VBDPL-VBELN_VAUF&amp; &amp;&apos;from &apos;VBDPL-AUDAT_VAUF&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>IL</TDFORMAT>
+     <TDLINE>,,&amp;&apos;Purchase order no. &apos;VBDPL-BSTNK&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>ITEM_QNUMBER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>IL</TDFORMAT>
+     <TDLINE>,,&amp;&apos;Return delivery for Q notification &apos;VBDPL-QMNUM&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE> &amp;&apos;from &apos;VBDPL-QMDAT&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>ITEM_PURCHASE_DATA</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>IL</TDFORMAT>
+     <TDLINE>,,&amp;&apos;PO number_K /Item:&apos;VBDPL-BSTKD&amp; &amp;&apos;/&apos;VBDPL-POSEX&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>IL</TDFORMAT>
+     <TDLINE>,,&amp;&apos;PO number_W /Item:&apos;VBDPL-BSTKD_E&amp; &amp;&apos;/&apos;VBDPL-POSEX_E&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>DG_STANDARD_TEXT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>DG</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>INCLUDE &amp;RDGTXTPRT-TDNAME&amp; OBJECT HZ01 ID HZ01</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>SUPPLEMENT_TEXT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>INCLUDE &amp;VBDKL-TDNAME&amp; OBJECT VBBK ID 0010 NEW-PARAGRAPH HT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>INFO2     F</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>&lt;s&gt;Doc. no.  / date&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>&amp;VBDKL-VBELN&amp;&amp;&apos; / &apos;VBDKL-LFDAT&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>PAGE      F</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>&lt;s&gt;Page&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>&amp;PAGE&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>You can also print out the page number as &quot;x of y&quot;:</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>&amp;PAGE&amp; / &amp;SAPSCRIPT-FORMPAGES&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>REPEAT    F</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>REPEAT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>Repeat printout</TDLINE>
+    </TLINE>
+   </TDLINES>
+  </asx:values>
+ </asx:abap>
+</abapGit>

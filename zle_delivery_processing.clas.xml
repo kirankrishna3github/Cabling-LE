@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZLE_DELIVERY_PROCESSING</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Beispiel-Implementierung zur BAdI-Definition LE_SHP_DELIVERY</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSFINAL>X</CLSFINAL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZLE_DELIVERY_PROCESSING</CLSNAME>
+     <CMPNAME>LV_DEF</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Default-Belegungen vornehmen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZLE_DELIVERY_PROCESSING</CLSNAME>
+     <CMPNAME>LV_VSART</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Versandart</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

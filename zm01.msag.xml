@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZM01</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Etikettierung Codesoft</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZM01</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Limit selection !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZM01</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Material &amp; does not exist.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZM01</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Document &amp; could not be found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZM01</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Document &amp; is not a goods receipt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZM01</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>All items processed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZM01</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Labels forwarded to printer</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZM01</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Printer &amp; is not a valid label printer</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZM01</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>No layout in table ZMETIK2 - Printing not possible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZM01</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Codesoft data missing in the table ZMETIK for printer &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZM01</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>storage bin &amp; not available</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZM01</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Only one entry allowed: Materialslip or Materialnumber</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZM01</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Select error of table ZTVETI_COUNTER (subrc &amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZM01</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Update error of table ZTVETI_COUNTER (subrc &amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZM01</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Document &amp; not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZM01</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Document &amp; with item &amp; not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZM01</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Only one entry allowed: Document or Material number</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>1</SPRSL>
+     <ARBGB>ZM01</ARBGB>
+     <STEXT>Labeling Codesoft</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZM01</ARBGB>
+     <STEXT>Etikettierung Codesoft</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Limit selection !</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Material &amp; does not exist.</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Document &amp; could not be found</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Document &amp; is not a goods receipt</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>All items processed</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Labels forwarded to printer</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Printer &amp; is not a valid label printer</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>No layout in table ZMETIK2 - Printing not possible</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Codesoft data missing in the table ZMETIK for printer &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Storage bin &amp; does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Only one entry allowed: Materialslip or Materialnumber</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Select error of table ZTVETI_COUNTER (subrc &amp;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Update error of table ZTVETI_COUNTER (subrc &amp;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Selektion einschränken !</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Material &amp; nicht angelegt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Beleg &amp; nicht gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Beleg &amp; ist kein Wareneingang</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>alle Positionen verarbeitet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Etiketten zum Drucker weitergeleitet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Drucker &amp; ist kein gültiger Etikettendrucker</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Kein Layout in Tabelle &amp; - Druck nicht möglich</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Zum Drucker &amp; fehlen die Codesoft Angaben in Tabelle ZMETIK</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Lagerplatz &amp; nicht vorhanden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Nur eine Eingabe erlaubt: Materialbeleg oder Materialnummer</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Fehler beim Lesen der Tabelle ZTVETI_COUNTER (subrc &amp;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Fehler beim Update der Tabelle ZTVETI_COUNTER (subrc &amp;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Einkaufsbeleg &amp; nicht gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Einkaufseleg &amp; zur Position &amp; nicht gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Nur eine Eingabe erlaubt: Einkaufsbeleg oder Materialnummer</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

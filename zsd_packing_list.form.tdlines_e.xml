@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<abapGit version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TDLINES>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>CONSGNEE</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>L</TDFORMAT>
+     <TDLINE>&lt;TI&gt;Ship-to party&lt;/&gt; &amp;VBPLA-KUNWE&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ADDRESS DELIVERY PARAGRAPH AS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  TITLE    &amp;VBPLA-ANRED_WE&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  NAME     &amp;VBPLA-NAME1_WE&amp;, &amp;VBPLA-NAME2_WE&amp;, &amp;VBPLA-NAME3_WE&amp;, &amp;VBPLA-NAME4_WE&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  STREET   &amp;VBPLA-STRAS_WE&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  CITY     &amp;VBPLA-ORT01_WE&amp;, &amp;VBPLA-ORT02&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  POSTCODE &amp;VBPLA-PSTLZ_WE&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  COUNTRY  &amp;VBPLA-LAND1_WE&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  REGION   &amp;VBPLA-REGIO_WE&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  FROMCOUNTRY &amp;VBPLA-LAND1_VST&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ENDADDRESS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>DELIVERY</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>L</TDFORMAT>
+     <TDLINE>&lt;TI&gt;Delivery note/Date&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>&amp;VBPLA-VBELN&amp;&amp;&apos;/&apos;VBPLA-LFDAT&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>REPEAT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>REPEAT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>Repeat printout</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>SHPOINT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>L</TDFORMAT>
+     <TDLINE>&lt;TI&gt;Shipping point&lt;/&gt; &amp;VBPLA-VSTEL&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ADDRESS SHIPPING_POINT PARAGRAPH AS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  TITLE    &amp;VBPLA-ANRED_VST&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  NAME     &amp;VBPLA-NAME1_VST&amp;, &amp;VBPLA-NAME2_VST&amp;, &amp;VBPLA-NAME3_VST&amp;, &amp;VBPLA-NAME4_VST&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  STREET   &amp;VBPLA-STRAS_VST&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  CITY     &amp;VBPLA-ORT01_VST&amp;, &amp;VBPLA-ORT02_VST&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  POSTCODE &amp;VBPLA-PSTLZ_VST&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  COUNTRY  &amp;VBPLA-LAND1_VST&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  REGION   &amp;VBPLA-REGIO_VST&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  FROMCOUNTRY &amp;VBPLA-LAND1_VST&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ENDADDRESS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>L</TDFORMAT>
+     <TDLINE>&lt;TI&gt;Information text&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>INCLUDE &amp;VBDKL-TDNAME&amp; OBJECT VBBK ID 9002 PARAGRAPH L LANGUAGE &amp;NAST-SPRAS&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>INCLUDE &amp;NAST-OBJKY&amp; OBJECT VBBK ID 9002 PARAGRAPH L LANGUAGE &amp;NAST-SPRAS&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>PAGECNT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>L</TDFORMAT>
+     <TDLINE>&lt;TI&gt;Page&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>C1</TDFORMAT>
+     <TDLINE>&amp;PAGE&amp; / &amp;SAPSCRIPT-FORMPAGES&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>TITLE</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>TI</TDFORMAT>
+     <TDLINE>Packing list</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>IF &amp;SY-SYSID(1)&amp; NE &apos;P&apos;.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>&lt;TF&gt; *** T E S T *** &amp;SY-SYSID&amp; / &amp;SY-MANDT&amp;&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ENDIF.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>CARRIER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>L</TDFORMAT>
+     <TDLINE>&lt;TI&gt;Forwarding agent&lt;/&gt; &amp;VBPLA-SPDNR&amp;  &amp;ZTLIEF_SCHENKER-ZZMISTRALNR&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ADDRESS DELIVERY PARAGRAPH AS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  TITLE    &amp;VBPLA-ANRED_SP&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  NAME     &amp;VBPLA-NAME1_SP&amp;, &amp;VBPLA-NAME2_SP&amp;, &amp;VBPLA-NAME3_SP&amp;, &amp;VBPLA-NAME4_VST&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  STREET   &amp;VBPLA-STRAS_SP&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  CITY     &amp;VBPLA-ORT01_SP&amp;, &amp;VBPLA-ORT02_SP&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  POSTCODE &amp;VBPLA-PSTLZ_SP&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  COUNTRY  &amp;VBPLA-LAND1_SP&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  REGION   &amp;VBPLA-REGIO_SP&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>  FROMCOUNTRY &amp;VBPLA-LAND1_VST&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ENDADDRESS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>L</TDFORMAT>
+     <TDLINE>&lt;TI&gt;Special completion&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>&amp;TVSAKT-BEZEI&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>MAIN</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>Shipping unit: quantity INT4 (10), weight/volume MENG15 (19),</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>     length/width/height MENG13 (17)</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>SHELEM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>erste Zeile mit Versandelement</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>IF &amp;VBPLK-TIVEL&amp; = &apos;00&apos;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>SE</TDFORMAT>
+     <TDLINE>&lt;H&gt;&amp;GV_EXIDV&amp;,,,,&lt;/&gt;&amp;VBPLK-VHILM&amp;,,,,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>&amp;VBPLK-BRGEW(I)&amp;,,&amp;VBPLK-GEWEI&amp;,,,,&amp;VBPLK-LAENG(I)&amp;,,&amp;VBPLK-MEABM&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>,,,,&amp;VBPLK-VEBEZ&amp;,,,,,,&amp;VBPLK-BTVOL(I)&amp;,,&amp;VBPLK-VOLEH&amp;,,&amp;VBPLK-BREIT(I)&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>,,&amp;VBPLK-MEABM&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>IF &amp;VBPLK-ADGE_DG&amp; NE &apos; &apos; AND &amp;VBPLK-ADGE_DGPR&amp; NE &apos; &apos;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>SE</TDFORMAT>
+     <TDLINE>,,,,&lt;K&gt;Pack level relevant for dangerous goods&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ENDIF</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>,,,,&amp;VBPLK-INHALT&amp;,,,,,,,,,,&amp;VBPLK-HOEHE(I)&amp;,,&amp;VBPLK-MEABM&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>SE</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ELSE</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>SE</TDFORMAT>
+     <TDLINE>&amp;VBPLK-TIVEL(Z)&amp;,,&amp;GV_EXIDV&amp;,,&amp;VBPLK-VHILM&amp;,,,,,,&amp;VBPLK-BRGEW(I)&amp;,,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>&amp;VBPLK-GEWEI&amp;,,&amp;VBPLK-LAENG(I)&amp;,,&amp;VBPLK-MEABM&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>,,&amp;VBPLK-VEBEZ&amp;,,,,&amp;VBPLK-BTVOL(I)&amp;,,&amp;VBPLK-VOLEH&amp;,,&amp;VBPLK-BREIT(I)&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>,,&amp;VBPLK-MEABM&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>IF &amp;VBPLK-ADGE_DG&amp; NE &apos; &apos; AND &amp;VBPLK-ADGE_DGPR&amp; NE &apos; &apos;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>SE</TDFORMAT>
+     <TDLINE>,,,,&lt;K&gt;Pack level relevant for dangerous goods&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ENDIF</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>,,,,&amp;VBPLK-INHALT&amp;,,,,,,,,,,&amp;VBPLK-HOEHE(I)&amp;,,&amp;VBPLK-MEABM&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>SE</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ENDIF</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>LIP: quantity/weight/volume MENG15 (19)</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>DELPOS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>DP</TDFORMAT>
+     <TDLINE>&amp;MCH1-ZZROLLNR&amp;,,&amp;VBPLP-POSNR&amp;,,&amp;VBPLP-MATNR&amp;,,&amp;VBPLP-VEMNG&amp;,,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>&amp;VBPLP-VEMEH&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>,,,,&amp;VBPLP-ARKTX&amp;,,,,,,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>INCLUDE &amp;VBDKL-TDNAME&amp; OBJECT VBBK ID 9007 PARAGRAPH DY LANGUAGE &amp;NAST-SPRAS&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>&amp;ULINE(112)&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>DP</TDFORMAT>
+     <TDLINE>&lt;TI&gt;Level,,&lt;/&gt;&lt;TI&gt;Identification,,&lt;/&gt;&lt;TI&gt;Material,,&lt;/&gt;&lt;TI&gt;Code No.,,&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>&lt;TI&gt;Quantity,,,,&lt;/&gt;&lt;TI&gt;Weight,,,,&lt;/&gt;&lt;TI&gt;Length&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>,,,,&lt;TI&gt;Description,,,,,,,,&lt;/&gt;&lt;TI&gt;Volume,,,,&lt;/&gt;&lt;TI&gt;Width&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>,,,,&lt;TI&gt;Contents,,,,,,,,,,,,&lt;/&gt;&lt;TI&gt;Height&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>&amp;ULINE(112)&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>L</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>TOTAL</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>&amp;ULINE(112)&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>TO</TDFORMAT>
+     <TDLINE>,,&lt;H&gt;Total&lt;/&gt;,,&amp;z_anz_coli&amp;,,Colis,,&amp;z_tot_brgew&amp;,,&amp;VBPLK-GEWEI&amp;</TDLINE>
+    </TLINE>
+   </TDLINES>
+  </asx:values>
+ </asx:abap>
+</abapGit>

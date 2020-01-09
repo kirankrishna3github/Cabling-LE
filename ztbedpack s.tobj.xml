@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TOBJ" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <OBJH>
+    <OBJECTNAME>ZTBEDPACK</OBJECTNAME>
+    <OBJECTTYPE>S</OBJECTTYPE>
+    <CLIDEP>X</CLIDEP>
+    <OBJCATEG>APPL</OBJCATEG>
+    <IMPORTABLE>3</IMPORTABLE>
+   </OBJH>
+   <OBJT>
+    <LANGUAGE>E</LANGUAGE>
+    <OBJECTNAME>ZTBEDPACK</OBJECTNAME>
+    <OBJECTTYPE>S</OBJECTTYPE>
+   </OBJT>
+   <OBJS>
+    <OBJS>
+     <OBJECTNAME>ZTBEDPACK</OBJECTNAME>
+     <OBJECTTYPE>S</OBJECTTYPE>
+     <TABNAME>ZTBEDPACK</TABNAME>
+     <DDIC>X</DDIC>
+     <PRIM_TABLE>X</PRIM_TABLE>
+    </OBJS>
+   </OBJS>
+   <TOBJ>
+    <TDDAT>
+     <TABNAME>ZTBEDPACK</TABNAME>
+     <CCLASS>&amp;NC&amp;</CCLASS>
+    </TDDAT>
+    <TVDIR>
+     <TABNAME>ZTBEDPACK</TABNAME>
+     <AREA>ZDLE</AREA>
+     <DEVCLASS>ZDLE</DEVCLASS>
+     <TYPE>2</TYPE>
+     <LISTE>0006</LISTE>
+     <DETAIL>0007</DETAIL>
+     <BASTAB>X</BASTAB>
+     <GENDATE>2009-07-13</GENDATE>
+     <GENTIME>08:44:51</GENTIME>
+     <FLAG>X</FLAG>
+    </TVDIR>
+   </TOBJ>
+  </asx:values>
+ </asx:abap>
+</abapGit>
